@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clock</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <script type="text/javascript" src="index.js"></script>
+    <!--- to link js file to the main html--->
+  </head>
+  <body>
+    <header>
+
+      <!--- Github licence template--->
+      <a href="https://github.com/elazdi-al/"><img src="images/Github.png" class="Github" alt="MyGithub" href="https://github.com/elazdi-al/"/></a>
+    </header>
+    <div id="clock_position" class="clock_position">
+      <div id="clock_h" class="clock_h" onload="setTime()"></div>
+      <div id="clock_m" class="clock_m" onload="setTime()"></div>
+    </div>
+    <!--                            -->
+
+    <div class="bg-overlay"></div>
+    <video class="fullscreen-video" id="video" autoplay="autoplay" muted loop>
+      <source src="bg_videos/1.mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <script type="text/javascript" src="index.js"></script>
+    <!--- to link js file to the main html--->
+  </body>
+</html>

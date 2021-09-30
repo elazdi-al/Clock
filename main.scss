@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+
+html, body {margin: 0; height: 100%; overflow: hidden}
+.clock_position {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+.Github{
+  height: 4%;
+  width: 2%;
+  padding-top: 1%;
+  cursor: pointer;
+  position: fixed;
+  right: 0.5%; /*Only works with "position" (fixed or absolute) before*/
+}
+.clock_h {
+  font-family: "Roboto", sans-serif;
+  font-size: 1300%;
+  position: absolute;
+  padding: 130px 0 400px;
+  color: rgba(255, 255, 255, 0.445);
+}
+
+.clock_m {
+  font-family: "Roboto", sans-serif;
+  font-size: 1300%;
+  position: absolute;
+  padding: 350px 0 400px;
+  color: rgba(255, 255, 255, 0.445);
+}
+
+
+img {
+  width: 600px;
+}
+
+.fullscreen-video {
+  position: fixed;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -10;
+}
+
+.bg-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #000;
+  opacity: 0.6;
+  z-index: -9;
+}
